@@ -11,6 +11,7 @@
   inputs.src-extensions-master.ref   = "refs/heads/master";
   inputs.src-extensions-master.owner = "jyapayne";
   inputs.src-extensions-master.repo  = "nim-extensions";
+  inputs.src-extensions-master.dir   = "";
   inputs.src-extensions-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:

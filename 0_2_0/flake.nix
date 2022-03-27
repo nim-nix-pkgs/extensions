@@ -11,6 +11,7 @@
   inputs.src-extensions-0_2_0.ref   = "refs/tags/0.2.0";
   inputs.src-extensions-0_2_0.owner = "jyapayne";
   inputs.src-extensions-0_2_0.repo  = "nim-extensions";
+  inputs.src-extensions-0_2_0.dir   = "";
   inputs.src-extensions-0_2_0.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
